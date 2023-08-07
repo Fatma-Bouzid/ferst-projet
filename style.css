@@ -13,6 +13,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     transition: 0.5s;
+    
 }
 body {
     
@@ -232,28 +233,27 @@ section {
 
 .troi .contenu{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px ;
+    justify-content: space-between;
+    margin-top: 5% ;
 }
 .troi .contenu .box{
-    width: 350px;
-    margin-top: 20px;
-    border:20px solid #fff ;
-    box-shadow: 20px 15px rgba(0, 0, 0, 8);
-    background-color: #b8cda7;
+    flex-basis: 48%;
+   
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fff3f3;
+    padding: 20px 12px;
 }
 
-.troi .contenu .box .text{
+
+.troi .contenu .box h2{
     text-align: center;
-    font-weight: 300px;
-    color: #111;
+    font-weight: 600;
+    margin: 10px 0;
 }
-.troi .contenu .box .text h2{
-    color: #5bae11;
-}
-.troi .contenu .box .text h3{
-    font-weight:400 ;
+.troi .contenu .box:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -270,70 +270,117 @@ section {
 .quat {
     background-image:url(./img/groupe.jpg) ;
     background-size: cover;
-    text-align: center
-    ;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
 }
 .quat .titre h2{
-    background-color: #4b87f7;
+    
     color: #ffffff;
 }
-.quat .contenu{
-    display: flex;
+.quat .row .facilities-col{
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
     text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px ;
+    background-color: #1651a9;
 }
-.quat .contenu .box{
-    width: 350px;
-    display: flex;
-    margin-top: 20px;
-    border:20px solid #cf8f8f ;
-    box-shadow: 20px 15px rgba(0, 0, 0, 8);
+.quat .row .facilities-col p{
+    text-align: center;
+    padding: 0;
 }
-.quat .contenu .box .inbox{
-    position: relative;
-    width: 100%;
-    height: 250px;
-    background-color: hwb(353 67% 15%) ;
-    font-size: 12px;
-    color: #000;
-    text-transform: uppercase;
-    text-transform: capitalize;
+.quat .row .facilities-col h3{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
-.quat .contenu .box .text{
+.quat .row .facilities-col2{
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
     text-align: center;
-    font-weight: 300px;
-    color: #111;
+    background-color: #dd7676;
+}
+.quat .row .facilities-col2 p{
+    text-align: center;
+    padding: 0;
+}
+.quat .row .facilities-col2 h3{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
 
+.quat .row .facilities-col3{
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #1651a9;
 }
-.quat .contenu .box .text h2{
-    font-weight:400 ;
-    color: aquamarine;
+.quat .row .facilities-col3 p{
+    text-align: center;
+    padding: 0;
 }
+.quat .row .facilities-col3 h3{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
 .btn1{
-    font-size: 1em;
-    color: #fff;
-    background:#525dc1 ;
     padding: 10px 20px;
-    display: inline-block;
+    background-color: #7685d3;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+    
+}
+.btn1:hover {
+    background:#115aae ;
+    transition: ease-out;
+    
+    
 }
 .btn2{
-    font-size: 1em;
-    color: #fff;
-    background:#525dc1 ;
     padding: 10px 20px;
-    display: inline-block;
+    background-color: #eb7168;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+    f
+}
+.btn2:hover {
+    background:#8d4742; ;
+    transition: ease-out;
+    
+    
 }
 .btn3{
-    font-size: 1em;
-    color: #fff;
-    background:#525dc1 ;
     padding: 10px 20px;
-    display: inline-block;
-}
+    background-color: #7685d3;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #fff;
 
+
+
+    
+}
+.btn3:hover {
+    background:#115aae ;
+    transition: ease-out;
+    
+    
+}
 .teach .col50{
     position: relative;
     width: 48%;
