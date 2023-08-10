@@ -144,79 +144,80 @@ section {
     align-items: center;
     flex-direction: column;
 }
-.deuxieme .contenu{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px ;
+.deuxieme {
+    
+    background-size: cover;
     text-align: center;
-}
-.deuxieme .contenu .box{
-    width: 350px;
-    margin-top: 20px;
-    border:20px solid #fff ;
-    box-shadow: 20px 15px rgba(0, 0, 0, 8);
-}
-.deuxieme .contenu .box .inbox{
-    position: relative;
-    width: 100%;
-    height: 250px;
-    background-color: rgb(188, 105, 38) ;
-    font-size: 12px;
-    color: #000;
-    text-transform: uppercase;
-    text-transform: capitalize;
-}
-.deuxieme .contenu .box .inbox img{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    object-fit:cover ;
-}
-.deuxieme .contenu .box .text{
-    text-align: center;
-    font-weight: 300px;
-    color: #111;
-}
-.deuxieme .contenu .box .text h3{
-    font-weight:400 ;
+    padding-top: 100px;
+    margin: auto;
 }
 
-.dou{
-    margin-top: -100px;
-    background-color: #6fa56f;
+
+.deuxieme .contenu .box .inbox{
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #1651a9;
+    text-align: center;
+    padding: 0;
 }
-.dou .contenu{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 40px ;
-    width: 100%;
-    align-items: center;
+
+.deuxieme .contenu .box .inbox h3{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
-.dou .contenu .box{
-    width: 340px;
-    margin: 20px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 15px;
+
+.deuxieme .contenu .box .inbox p{
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+
+.dou1{
+    
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    background-color: #b1c4e1;
+    padding: 50;
+}
+.dou2{
+    
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    background-color: #94b1de;
+}
+.dou3{
+    
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    background-color: #b1c4e1;
+}
+
+
+.dou1 .titre-texte h2{
+    
+    color: #680e0e;
+}
+.dou1 .contenu .box .inbox{
+    
+    border-radius: 50px;
+    margin-bottom: 5%;
+    text-align: center;
     
 }
-.dou .contenu .box .inbox{
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-.dou .contenu .box .inbox .img{
+.dou1 .contenu .box .inbox .img{
     position: relative;
     width: 100%;
     height: 100%;
@@ -226,9 +227,108 @@ section {
     justify-content: center;
     align-items: center;
 }
-.dou .contenu .box .text h4{
-    color: #5e6856;
+
+.dou1 .row .facilities-col p{
+    text-align: center;
+    padding: 0;
 }
+.dou1 .contenu .box .inbox h4 h2{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    background-color: #b1c4e1;
+}
+
+.dou2 .titre-texte h2{
+    
+    color: #680e0e;
+}
+.dou2 .contenu .box .inbox{
+    
+    border-radius: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+.dou2 .contenu .box .inbox .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.dou2 .row .facilities-col p{
+    text-align: center;
+    padding: 0;
+}
+.dou2 .contenu .box .inbox h4 h2{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    background-color: #b1c4e1;
+}
+
+.dou3 .titre-texte h2{
+    
+    color: #680e0e;
+}
+.dou3 .contenu .box .inbox{
+    
+    border-radius: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+.dou3 .contenu .box .inbox .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.dou3 .row .facilities-col p{
+    text-align: center;
+    padding: 0;
+}
+.dou3 .contenu .box .inbox h4 h2{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    background-color: #b1c4e1;
+}
+
+
+
+
+.quat .row .facilities-col p{
+    text-align: center;
+    padding: 0;
+}
+.dou .contenu .box .inbox h4 h2{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    background-color: #b1c4e1;
+}
+
+
+
+
+
+
+
 
 
 .troi .contenu{
